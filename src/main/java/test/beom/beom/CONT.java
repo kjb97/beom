@@ -11,4 +11,9 @@ public class CONT {
     public String bbb(){
         return "범";
     }
+
+    @GetMapping("/bup")
+    public String btest(){
+        return "version upgrade beom";
+    }
 }
